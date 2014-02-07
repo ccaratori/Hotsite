@@ -2,6 +2,9 @@
 /* Layout
 -------------------------------------------------------------- */
 body {
+  font-family: 'Gotham Narrow SSm 3r', 'Gotham Narrow SSm A', 'Gotham Narrow SSm B';
+  font-weight: 300; 
+  font-style: normal;
   font-size: 16px;
   color: #808284;
   margin: 0;
@@ -98,7 +101,7 @@ code {
   width: 50%;
   margin: 50px auto;
   text-align: center;
-  font-size: 2em;
+  font-size: 32px;
   color: #6D6F71;
   clear: both;
 }
@@ -115,7 +118,7 @@ code {
 }
 
 .topic {
-  min-height: 200px;
+  min-height: 245px;
   margin-top: -40px;
   padding: 20px 24px;
   border-radius: 10px;
@@ -142,19 +145,19 @@ code {
 
 .footer-heading {
   color: white;
-  font-size: 32;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .footer-sub-heading {
   color: white;
-  font-size: 18;
+  font-size: 18px;
   font-weight: 300; 
 }
 
 .footer-cta {
   color: white;
-  font-size: 18;
+  font-size: 18px;
   font-weight: medium;
 }
 
