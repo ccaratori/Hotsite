@@ -102,6 +102,7 @@ code {
   margin: 50px auto;
   text-align: center;
   font-size: 32px;
+  font-weight: 400;
   color: #6D6F71;
   clear: both;
 }
@@ -150,6 +151,7 @@ code {
 }
 
 .footer-sub-heading {
+  margin-bottom: 50px;
   color: white;
   font-size: 18px;
   font-weight: 300; 
@@ -158,12 +160,12 @@ code {
 .footer-cta {
   color: white;
   font-size: 18px;
-  font-weight: medium;
+  font-weight: 400;
 }
 
 .btn {
-  margin: 30px 0px;
-  padding: 14px 22px;
+  margin: 10px 0px;
+  padding: 16px 50px;
   border-radius: 5px;
   font-size: 18px;
   text-align: center;
