@@ -54,8 +54,7 @@ a:hover {
 -------------------------------------------------------------- */
 .heading {
   font-size: 32px;
-  margin: 0 20px 20px 20px;
-  padding-top: 51px;
+  margin: 0 20px 20px 0;
   font-weight: 700;
   color: #ffffff;
   text-align: left;
@@ -63,7 +62,7 @@ a:hover {
 
 .sub-heading {
   font-size: 20px;
-  margin: 0 20px 0 20px;
+  margin: 0 20px 0 0px;
   padding-bottom: 35px;
   font-weight: 300;
   color: #ffffff;
