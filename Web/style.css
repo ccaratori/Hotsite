@@ -32,19 +32,19 @@ a:hover {
 
 #overview {
   width: 100%;
-  height: 1080px;
+  min-height: 1080px;
   background-color: #f6f5ed;
   border-top: 1px solid #000;
 }
 
 #features {
   width: 100%;
-  height: 650px;
+  min-height: 750px;
 }
 
 #footer {
   width: 100%;
-  height: 410px;
+  min-height: 410px;
   padding-top: 40px;
   background-color: #8EC32B;
 }
@@ -108,17 +108,6 @@ code {
   clear: both;
 }
 
-.feature-heading {
-  font-size: 18px;
-  color: #fe8d29;
-  font-weight: bold;
-  height: 50px
-}
-
-.feature {
-  height: 250px;
-}
-
 .topic {
   min-height: 245px;
   margin-top: -40px;
@@ -127,24 +116,77 @@ code {
   color: white;
 }
 
-.topic-green {
-  background-color: #8EC32B;
-}
-
-.topic-yellow {
-  background-color: #f6b428;
-}
-
-.topic-orange {
-  background-color: #fe8d29;
-}
-
 .topic-heading {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
   position: relative;
 }
+
+.topic-analytics {
+  background-color: #8EC32B;
+  background-image: url(icon_section_analytics.png);
+}
+
+.topic-engage {
+  background-color: #f6b428;
+  background-image: url(icon_section_engage.png);
+}
+
+.topic-reward {
+  background-color: #fe8d29;
+  background-image: url(icon_section_rewards.png);
+}
+
+.topic-analytics,
+.topic-engage,
+.topic-reward {
+  background-repeat: no-repeat;
+  background-position: 95% 5%;
+}
+
+/*----- Features ------*/
+
+.feature-heading {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fe8d29;
+  font-weight: bold;
+}
+
+.feature-heading > p {
+  margin-left: 50px;
+}
+
+.feature-heading > img {
+  float: left;
+}
+
+.feature-retencao > img {
+  margin-top: 5px;
+}
+
+.feature-kpis > img {
+  margin-top: 4px;
+}
+
+.feature-conversas {
+  margin-bottom: 32px;
+}
+
+.feature-conversas > img {
+  margin-top: -5px;
+}
+
+.feature-conversas > p {
+  margin-top: 25px;
+}
+
+.feature {
+  min-height: 250px;
+}
+
+/*----- Footer ------*/
 
 .footer-heading {
   color: white;
@@ -183,3 +225,20 @@ code {
 .btn-orange {
   background-color: #fe8d29;
 }
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
