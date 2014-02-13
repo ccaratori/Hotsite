@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 40px 0;
+}
+
 footer {
   font-size: 0.9em;
   border-top: 1px solid #ccc;
@@ -25,6 +29,7 @@ a:hover {
 #header {
   width: 100%;
   min-height: 500px;
+  padding: 0;
   background-image: url(Header.jpg);
   background-position: center;
   background-color: #b67326;
@@ -32,25 +37,21 @@ a:hover {
 
 #overview {
   width: 100%;
-  min-height: 1080px;
   background-color: #f6f5ed;
   border-top: 1px solid #000;
 }
 
 #features {
   width: 100%;
-  min-height: 750px;
 }
 
 #explanation {
   width: 100%;
-  padding: 40px 0;
   background-color: #f6f5ed;
 }
 
 #footer {
   width: 100%;
-  min-height: 410px;
   padding-top: 40px;
   background-color: #8EC32B;
 }
@@ -116,7 +117,7 @@ code {
 
 .topic {
   min-height: 262px;
-  margin-top: -40px;
+  margin-top: -80px;
   padding: 20px 24px;
   border-radius: 10px;
   color: white;
