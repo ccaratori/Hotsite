@@ -42,6 +42,12 @@ a:hover {
   min-height: 750px;
 }
 
+#explanation {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f6f5ed;
+}
+
 #footer {
   width: 100%;
   min-height: 410px;
@@ -184,6 +190,19 @@ code {
 
 .feature {
   min-height: 250px;
+}
+
+/*----- Explanation ------*/
+.explanation-header {
+  margin: 16px 0;
+  color: #fe8d29;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.highlight > p {
+  margin-left: 50px;
+  font-weight: 400;
 }
 
 /*----- Footer ------*/
